@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling */
+html, body {
+  scroll-behavior: smooth;
+  overflow-x: hidden; /* ❌ Horizontal scroll hata dega */
+  max-width: 100%;    /* ❌ Mobile me right-side space nahi banega */
+}
+
+/* Default body styling */
+body {
+  @apply text-gray-800 bg-gray-50;
+}
