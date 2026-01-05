@@ -1,24 +1,22 @@
 // src/App.jsx
-import { Routes, Route, Navigate, useLocation } from "react-router-dom";
-import { useState, useEffect } from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import Gallery from "./pages/Gallery";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Login from "./pages/Login";
-import Shop from "./pages/Shop";
-import Cart from "./pages/Cart";
-import Checkout from "./pages/Checkout";
-import Orders from "./pages/Orders";
-import AdminDashboard from "./pages/admin/AdminDashboard";
-import ProtectedRoute from "./components/ProtectedRoute";
-import AdminOrderDetails from "./pages/admin/AdminOrderDetails";
-import AdminCategories from "./pages/admin/AdminCategories";
-import ProductDetails from "./pages/ProductDetails";
-import AdminProductDetails from "./pages/admin/AdminProductDetails";
-import AdminCoupons from "./pages/admin/AdminCoupons"; 
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
+import Home from "./pages/Home.jsx";
+import Gallery from "./pages/Gallery.jsx";
+import About from "./pages/About.jsx";
+import Contact from "./pages/Contact.jsx";
+import Login from "./pages/Login.jsx";
+import Shop from "./pages/Shop.jsx";
+import Cart from "./pages/Cart.jsx";
+import Checkout from "./pages/Checkout.jsx";
+import Orders from "./pages/Orders.jsx";
+import AdminDashboard from "./pages/admin/AdminDashboard.jsx";
+import ProtectedRoute from "./components/ProtectedRoute.jsx";
+import AdminOrderDetails from "./pages/admin/AdminOrderDetails.jsx";
+import AdminCategories from "./pages/admin/AdminCategories.jsx";
+import ProductDetails from "./pages/ProductDetails.jsx";
+import AdminProductDetails from "./pages/admin/AdminProductDetails.jsx";
+import AdminCoupons from "./pages/admin/AdminCoupons.jsx";
 
 
 import { Toaster } from "react-hot-toast";
